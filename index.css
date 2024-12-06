@@ -3,12 +3,25 @@
     src: url('./font/Lora/static/Lora-Regular.ttf');
 }
 
+@font-face {
+    font-family: Lato-Regular;
+    src: url('./font/Lato/Lato-Regular.ttf');
+}
+
+/* desktop-screen */
+
+body {
+    margin: 0px;
+}
+
 .container {
     width: 100%;
     height: auto;
     background-color: #FFFFFF;
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
     gap: 80px;
 }
 
@@ -58,9 +71,90 @@
     margin-top: 41px;
     width: 810px;
     height: 192px;
+    font-family: Lato-Regular;
     font-size: 16px;
     font-weight: 400;
     color: #2C2A29;
     line-height: 22px;
     text-align: center;
+}
+
+.section-2 {
+    width: 1376px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+
+.section-2-content {
+    width: 1376px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+
+.img-section-2 {
+    width: 684px;
+    height: 800px;
+    border-radius: 24px 24px 24px 24px;
+}
+
+.section-2-content-box {
+    width: 684px;
+    height: 800px;
+    border-radius: 24px 24px 24px 24px;
+    background-color: #F4F0EA;
+}
+
+.section-2-text {
+    width: 587px;
+    height: 458px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 294px;
+    margin-left: 49px;
+    gap: 24px;
+}
+
+.section-2-title {
+    font-family: Lora-Regular;
+    font-size: 64px;
+    font-weight: 400;
+    line-height: 74px;
+    text-align: left;
+    color: #1F1F1F;
+}
+
+.section-2-box-des {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    font-family: Lato-Regular;
+}
+
+.section-2-box-des-title {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.section-2-box-des-text {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+}
+
+.section-2-text-2 {
+    width: 587px;
+    height: 358px;
+    margin-top: 372px;
+    margin-left: 48.5px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
 }
