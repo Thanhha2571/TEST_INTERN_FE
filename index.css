@@ -1,0 +1,66 @@
+@font-face {
+    font-family: Lora-Regular;
+    src: url('./font/Lora/static/Lora-Regular.ttf');
+}
+
+.container {
+    width: 100%;
+    height: auto;
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+}
+
+.section-1 {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+
+.section-1-heading {
+    font-family: Lora-Regular;
+    font-size: 40px;
+    line-height: 54px;
+    text-align: center;
+    color: #2C2A29;
+}
+
+.section-1-img {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 36px;
+}
+
+.img-1 {
+    width: 379px;
+    height: 617.89px;
+    margin-top: 41px;
+    border-radius: 16px 16px 16px 16px;
+
+}
+
+.img-2 {
+    width: 379px;
+    height: 617.89px;
+    margin-top: 41px;
+    border-radius: 16px 16px 16px 16px;
+
+}
+
+.section-1-text {
+    margin-top: 41px;
+    width: 810px;
+    height: 192px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #2C2A29;
+    line-height: 22px;
+    text-align: center;
+}
